@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     @IBAction func myGuessButtonPressed(_ sender: Any)
     {
         //5. New variable message that displays a message that includes currentValue
-        _ = "The value is: \(currentValue)"
+        let message = "The value is: \(currentValue)"
     
         //1. create alert view
         let alert = UIAlertController(title:"Hello World!", message: "This is my first alert view", preferredStyle: .alert)
