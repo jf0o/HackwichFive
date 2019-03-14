@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         let message = "The value is: \(currentValue)"
     
         //1. create alert view
-        let alert = UIAlertController(title:"Hello World!", message: "This is my first alert view", preferredStyle: .alert)
+        let alert = UIAlertController(title:"Hello World!", message: message, preferredStyle: .alert)
         
         //2. button that user taps to dismiss view controller
         let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
