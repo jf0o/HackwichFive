@@ -24,6 +24,9 @@ class ViewController: UIViewController {
         
        //call startNewRound
         startNewRound()
+        //set constant variable to store the slider's image:
+        let thumbImageNormal = UIImage(named: "SliderThumb-Normal")
+        slider.setThumbImage(thumbImageNormal, for: .normal)
     }
 
     override func didReceiveMemoryWarning() {
@@ -61,5 +64,8 @@ class ViewController: UIViewController {
         
         startNewRound()
     }
+    @IBOutlet var targetLabel: UILabel!
+    func updateTargetLabel
+    
 }
 
